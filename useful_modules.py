@@ -1,8 +1,8 @@
-import numpy as np #the Numpy library
-import matplotlib.pyplot as plt #Matplotlib's pyplot
+import numpy as np
+import matplotlib.pyplot as plt #matplotlib
 
-import sys #gives access to C-like sys library
-import os #gives access to operating system
+import sys #gives access to a C-like library
+import OS #gives access to operating system properties
 
-print(sys.argv)	#command line arguments
-print(os.getcwd())	#print current working directory
+print(sys.argv) #prints any command line arguments
+print(os.getcwd()) #prints current working directory
